@@ -1,0 +1,56 @@
+{
+    
+        {
+           
+            "Faculty": "Mr.Narendra Singh",
+            "About the Faculty": "Narendra Singh is a post graduate from Delhi university in Political Science .",
+            "Course Fee": "Rs.1150.00",
+            "Teaching Experience": "10 Years",
+            "Course Name": "Political Science"
+        },
+        {
+            "Faculty": "Mrs. Sunita Chauhan",
+            "About the Faculty": "Has taught in many top coaching centres and even in one of the biggest state universities in Rajsthan & Haryana",
+            "Course Fee": "Rs.1400.00",
+            "Teaching Experience": "8 Years",
+            "Course Name": "English Communication"
+        },
+        {
+            "Faculty": "Mr Sharad Srivastav",
+            "About the Faculty": "A post doctoral researcher in Indian History with a very wide range of Knowledge .",
+            "Course Fee": "Rs.850.00",
+            "Teaching Experience": "25 years",
+            "Course Name": "Indian & World History"
+        },
+        {
+            "Faculty": "Mr.Mohit Singla",
+            "About the Faculty": "A magician in Mathematics has mentored 100 + top rank students in various competitive examinations.",
+            "Course Fee": "Rs.600.00",
+            "Teaching Experience": "13 Years",
+            "Course Name": "Mathematics & Statistics"
+        },
+        {
+            "Faculty": "Mr. Ajay Yashpal Singh ",
+            "About the Faculty": "Has taught in coaching centres like Akaash, FITJEE, Narayna.",
+            "Course Fee": "Rs.1350.00",
+            "Teaching Experience": "11 Years",
+            "Course Name": "Chemistry & various Compounds"
+        },
+        {
+            "Faculty": "Mrs. Kanika Bhattacharya",
+            "About the Faculty": "Very Talented faculty post gradute in economics from Mumbai University.",
+            "Course Fee": "Rs.1200.00",
+            "Teaching Experience": "17 Years",
+            "Course Name": "Economics"
+        },
+        {
+            "Faculty": "Mr. Taposh Kulkarni",
+            "About the Faculty": "Post graduate in BA(geography) and taught in major coaching centres like Dhyuti IAS",
+            "Course Fee": "Rs.450.00",
+            "Teaching Experience": "6 Years",
+            "Course Name": "Geography"
+        }
+
+
+    
+}

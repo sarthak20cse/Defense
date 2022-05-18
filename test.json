@@ -1,0 +1,40 @@
+{
+    "studymatatrila":[
+        {
+            "Exam":"CDS",
+             "book":"PATH FINDER"
+
+        },
+        {
+            "Exam":"AFCAT",
+            "book":"AIR ACIVED"  
+        },
+        {
+            "Exam":"CAPF",
+            "book":"POLICE "  
+        }
+    ],
+    
+    "liberary":[
+        {
+            "name": "agrawal",
+            "location":"delhi",
+            "contact":"9685357687"
+
+        },
+        {
+            "name": "rana",
+            "location":"pune",
+            "contact":"9656785768"
+        },
+        {
+            "name": "nagpal",
+            "location":"keral",
+            "contact":"9656775768"
+        }
+        
+
+
+    ]
+    
+}

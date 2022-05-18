@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+<link rel="shortcut icon" type="image/jpeg" href="images/WhatsApp Image 2022-03-08 at 11.32.07 AM.jpeg">
+    <title>Defence Point</title>
+    <script src="https://kit.fontawesome.com/a44fa29d8d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+
+        <a href="index,hyml"><img src="images/Defence.jpeg"></a>
+        <nav class="navbar">
+           <div id="close-navbar" class="fas fa-times"></div>
+           <a href="project.html">home</a>
+           <a href="about.html">about</a>
+           <a href="course.html">courses</a>
+           <a href="contact.html">contact</a>
+        </nav>
+     
+        
+     
+     </header> 
+    <section class="sub-header" style="background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../website/images/wp3991335.jpg);">
+        <!-- <nav>
+            <a href="index,hyml"><img src="images/Defence.jpeg"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times"></i>
+                <ul>
+                    <li><a href="project.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav> -->
+      <h1 >CDS COURSE</h1>
+        </section>
+
+        <section class="CDS">
+            <h1> Our Currently Offered Courses</h1>
+            
+            <div class="row">
+                <div class="CDS-col">
+                    <img src="images/387f5a5a6fd5e993fcfa976eba8a3dcf.jpg">
+                    <h3>Direct Entry</h3>
+                    <P>This course will target army officers who want to operate in field and want to be heros that safeguard India and its countrymen.</P>
+                </div>
+                <div class="CDS-col">
+                    <img src="images/maxresdefault.jpg">
+                    <h3>Army Core Medical Officers</h3>
+                <p>This program will target officers that will work to provide medic operations to ongoing missions and also for medical examinations of upcoming defence officers. </p>                    
+                </div>
+
+                <div class="CDS-col">
+                    <img src="images/JAG-ENTRY-SCHEME.jpeg">
+                    <h3>JAG ENTRY</h3>
+                <p>Here the lawyers and people with diplomatic mindset will be targeted that will work for the legal matters of the Indian Army , navy and Airforce . All the petitions and legal matters will be taken care by these officials only. </p>                    
+                </div>
+            </div>
+        </section>
+        
+    
+        <section class="footer">
+            <h4>ABOUT US
+            </h4>
+            <p>We have been providing our country with best soldiers since 1997<br> Trust us We have The Best Trainers</p>
+
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p> copyright claim</p>
+        </section>
+
+        
+        
+
+        <!--javascript-->
+        <script>
+            var navlinks = document.getElementById("navlinks");
+            function showmenu(){
+                navlinks.style.right="0";
+            }
+            function hidemenu(){
+                navlinks.style.right="-200px";
+            }
+            let jsonobj={
+                name:"RAHUL",
+        education:"PHD ENGLISH",
+        fees:"5000",
+        rating: 4.0
+            }
+            console.log(jsonobj);
+            let myjsonStr = JSON.stringify(jsonobj);
+            console.log(myjsonStr);
+            myjsonStr = myjsonStr.replace('RAHUL','RAM');
+            console.log(myjsonStr);
+            newjsonobj = JSON.parse(myjsonStr);
+            console.log(newjsonobj)
+        </script>
+
+    
+</body>
+</html>
